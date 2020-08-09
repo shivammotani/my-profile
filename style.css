@@ -41,7 +41,7 @@ a:hover{
 
 
 .container{
-  width:750px;
+  width:50%;
   margin: 40px auto;
 }
 
@@ -114,18 +114,37 @@ width:150px;
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 700px;
+    width: 100%;
   }
 }
+
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 500px;
+    width: 100%;
   }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 100%;
   }
+}
+@media (max-width: 300px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+  .btn-blue{
+    font-size:11px;
+    padding:9px;
+  }
+}
+
+
+footer{
+  text-align: center;
+  font-size:15px;
+  color: #575F7D;
+  margin-top:-18px;
 }
